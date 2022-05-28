@@ -21,6 +21,6 @@ int main()
     cout << "Run again " << endl;
     cin >> user_input;
 
-    }while(user_input = 'y');
+    }while(user_input == 'y' || user_input == 'Y');
 
 }
